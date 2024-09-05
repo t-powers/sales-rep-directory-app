@@ -6,11 +6,3 @@ const firebaseConfig = {
 };
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
-
-const birthdayInputField = document.getElementById("birthday-input");
-const submitButton = document.getElementById("submit-button");
-
-submitButton.addEventListener("click", function () {
-  console.log(birthdayInputField.value);
-  birthdayInputField.value = "";
-});

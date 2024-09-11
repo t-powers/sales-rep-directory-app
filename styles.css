@@ -4,7 +4,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   min-width: 400px;
 }
-
+.input-block {
+  max-width: fit-content;
+  margin: 0 auto;
+}
 input {
   width: 100%;
   padding: 10px;
